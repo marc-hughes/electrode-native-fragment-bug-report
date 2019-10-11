@@ -6,7 +6,7 @@ import android.os.Bundle;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.walmartlabs.ern.container.ElectrodeReactContainer;
-import com.walmartlabs.ern.container.miniapps.TestMiniAppActivity;
+//import com.walmartlabs.ern.container.miniapps.TestMiniAppActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 /* Additional plugins configuration here */);
         super.onCreate(savedInstanceState);
 
-        Intent myIntent = new Intent(MainActivity.this, TestMiniAppActivity.class);
+        Intent myIntent = new Intent(MainActivity.this, MiniApp.class);
 
         MainActivity.this.startActivity(myIntent);
 
